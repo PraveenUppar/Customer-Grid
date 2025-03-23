@@ -1,5 +1,7 @@
 # SolVIT HACKATHON 2025
 
+#### Deployed Link: https://customer-grid.vercel.app/
+
 Problem Domain: Customer Experience and Engagement.
 
 Project Title: Customer Grid
