@@ -67,11 +67,11 @@ Step 4: Open http://localhost:3000 with your browser to see the result.
 
 ## Deployment
 
-Traefik 
+Docker → Containerization tool to package and run apps.
 
-Coolify
+Traefik → Reverse proxy & load balancer for managing traffic to containers.
 
-Docker
+Coolify → Self-hosted PaaS to deploy & manage apps with a UI (alternative to Heroku).
 
 ## Learn More
 
