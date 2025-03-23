@@ -8,7 +8,7 @@ Team Number: 80.
 
 Team Lead: Praveen Uppar - 23BSA10054
 
-Team Members:Tejasav Khandelwal, Gurkirat Singh, Harsh Sahu, Harshita Jaiswal ,Swetalina Sarangi.
+Team Members: Tejasav Khandelwal, Gurkirat Singh, Harsh Sahu, Harshita Jaiswal , Swetalina Sarangi.
 
 Project Description:
 
@@ -21,7 +21,10 @@ Objectives:
 2. Collecting and managing customer feedback effectively
 3. Managing and resolving customer complaints efficiently
 
-Technologies Used:
+![Mind Map](Mind%20map.png)
+
+
+## Technologies Used:
 
 Frontend: Next.JS
 
@@ -37,7 +40,7 @@ MongoDB: NoSQL database for storing data
 
 Mongoose: MongoDB object modelling tool for interacting with the database
 
-Setup Instructions:
+## Setup Instructions:
 
 ```bash
 git clone https://github.com/PraveenUppar/VITB-IEEE-BLH09-CodeBlooded-Hackathon.git
@@ -56,6 +59,11 @@ Step 2: Install Dependencies Run the command: npm install
 Step 3: Start the Server Run the command: npm run dev
 
 Step 4: Open http://localhost:3000 with your browser to see the result.
+
+## File Structuring
+
+![File Structure](file%20structure.jpg)
+
 
 ## Deployment
 
