@@ -3,12 +3,14 @@
 import { useAppDispatch, useAppSelector } from "@/app/redux";
 import { setIsSidebarCollapsed } from "@/state";
 import {
+	BarChart,
 	Book,
 	CircleDollarSign,
 	Clipboard,
 	Layout,
 	type LucideIcon,
 	Menu,
+	MessageSquare,
 	SlidersHorizontal,
 	User,
 } from "lucide-react";
@@ -105,7 +107,12 @@ const Sidebar = () => {
 					label="Dashboard"
 					isCollapsed={isSidebarCollapsed}
 				/>
-
+				<SidebarLink
+					href="/analytics"
+					icon={BarChart}
+					label="Analytics"
+					isCollapsed={isSidebarCollapsed}
+				/>
 				<SidebarLink
 					href="/products"
 					icon={Clipboard}
@@ -134,6 +141,12 @@ const Sidebar = () => {
 					href="/docs"
 					icon={Book}
 					label="Documentation"
+					isCollapsed={isSidebarCollapsed}
+				/>
+				<SidebarLink
+					href="/feedback"
+					icon={MessageSquare}
+					label="Feedback"
 					isCollapsed={isSidebarCollapsed}
 				/>
 			</div>
