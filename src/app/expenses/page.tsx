@@ -84,7 +84,7 @@ const Expenses = () => {
 	if (isError || !expensesData) {
 		return (
 			<div className="text-center text-red-500 py-4">
-				Failed to fetch expenses
+				fetching rewards (Under Development)
 			</div>
 		);
 	}
