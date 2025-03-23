@@ -6,7 +6,9 @@ Project Title: Customer Grid
 
 Team Number: 80.
 
-Team Members: Praveen Uppar, Tejasav Khandelwal, Gurkirat Singh, Harsh Sahu, Harshita Jaiswal ,Swetalina Sarangi.
+Team Lead: Praveen Uppar - 23BSA10054
+
+Team Members:Tejasav Khandelwal, Gurkirat Singh, Harsh Sahu, Harshita Jaiswal ,Swetalina Sarangi.
 
 Project Description:
 
