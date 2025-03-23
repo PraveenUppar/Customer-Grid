@@ -1,24 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SolVIT HACKATHON 2025
 
-## Getting Started
+Problem Domain: Customer Experience and Engagement.
 
-First, run the development server:
+Project Title: Customer Grid
+
+Team Number: 80.
+
+Team Members: Praveen Uppar, Tejasav Khandelwal, Gurkirat Singh, Harsh Sahu, Harshita Jaiswal ,Swetalina Sarangi.
+
+Project Description:
+
+Customer Grid
+
+A B2B SaaS platform that provides businesses with a comprehensive dashboard to analyse customer engagement, manage loyalty programs, collect and act on feedback, and improve customer satisfaction through data-driven insights.
+
+Objectives: 
+1. Implementing a customer loyalty and rewards system to retain buyers
+2. Collecting and managing customer feedback effectively
+3. Managing and resolving customer complaints efficiently
+
+Technologies Used:
+
+Frontend: Next.JS
+
+Backend: Node.js, Express.js, MongoDB
+
+Next.JS: Frontend Framework
+
+Node.js: JavaScript runtime environment for building the server-side application
+
+Express.js: Node.js web framework for building the application's backend
+
+MongoDB: NoSQL database for storing data
+
+Mongoose: MongoDB object modelling tool for interacting with the database
+
+Setup Instructions:
 
 ```bash
+git clone https://github.com/PraveenUppar/VITB-IEEE-BLH09-CodeBlooded-Hackathon.git
+
+npm install
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Step 1: Clone the Repository Open your terminal and run the command: 
+git clone https://github.com/PraveenUppar/Customer-Grid.git
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Step 2: Install Dependencies Run the command: npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Step 3: Start the Server Run the command: npm run dev
+
+Step 4: Open http://localhost:3000 with your browser to see the result.
+
+## Deployment
+
+Traefik 
+
+Coolify
+
+Docker
 
 ## Learn More
 
