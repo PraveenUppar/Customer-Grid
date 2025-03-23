@@ -3,6 +3,7 @@
 import { useAppDispatch, useAppSelector } from "@/app/redux";
 import { setIsSidebarCollapsed } from "@/state";
 import {
+	BarChart,
 	Book,
 	CircleDollarSign,
 	Clipboard,
@@ -106,7 +107,12 @@ const Sidebar = () => {
 					label="Dashboard"
 					isCollapsed={isSidebarCollapsed}
 				/>
-
+				<SidebarLink
+					href="/analytics"
+					icon={BarChart}
+					label="Analytics"
+					isCollapsed={isSidebarCollapsed}
+				/>
 				<SidebarLink
 					href="/products"
 					icon={Clipboard}
