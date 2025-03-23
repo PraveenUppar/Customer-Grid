@@ -9,6 +9,7 @@ import {
 	Layout,
 	type LucideIcon,
 	Menu,
+	MessageSquare,
 	SlidersHorizontal,
 	User,
 } from "lucide-react";
@@ -134,6 +135,12 @@ const Sidebar = () => {
 					href="/docs"
 					icon={Book}
 					label="Documentation"
+					isCollapsed={isSidebarCollapsed}
+				/>
+				<SidebarLink
+					href="/feedback"
+					icon={MessageSquare}
+					label="Feedback"
 					isCollapsed={isSidebarCollapsed}
 				/>
 			</div>
